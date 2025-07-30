@@ -2,7 +2,7 @@
 name = "libfprint-rs"
 repository = "https://github.com/alvaroparker/libfprint-rs"
 version = "0.2.3"
-edition = "2021"
+edition = "2024"
 description = "Rust library for accesing fingerprint devices."
 keywords = ["libfprint", "sensor", "hardware", "linux"]
 license = "MIT"

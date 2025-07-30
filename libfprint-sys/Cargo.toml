@@ -2,21 +2,18 @@
 name = "libfprint-sys"
 repository = "https://github.com/alvaroparker/libfprint-rs"
 version = "0.1.8"
-edition = "2021"
+edition = "2024"
 description = "Libfprint raw FFI bindings."
 keywords = ["libfprint", "sensor", "hardware", "linux"]
 license = "MIT"
 links = "libfprint-2"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [package.metadata.pkg-config]
 libfprint-2 = "*"
 
-[dependencies]
-
 [build-dependencies]
-bindgen = "0.66.1"
-pkg-config = "0.3.26"
+bindgen = "0.72.0"
+pkg-config = "0.3.32"
 
 [package.metadata.docs.rs]
 dependencies = ["libfprint-2-dev"]
